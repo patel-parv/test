@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.main-con{
+    height: 100vh;
+    width: 100%;
+    /* border: 5px solid greenyellow; */
+    background-image: url(demo-lawyer-slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    /* border: 5px solid gold; */
+    display: flex;
+    color: white;
+    
+  
+  
+}
+.logo{
+    height: 85px;
+    width: 100px;
+    /* border: 5px solid gray; */
+    padding: 0 20px;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    color: rgb(203, 154, 90);
+   
+}
+.nav1{
+    height: 85px;
+    width: 600px;
+    /* border: 5px solid goldenrod; */
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 900px ;
+  
+}
+
+
+.nav1 nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 45px;
+    font-size: 20px;
+   
+}
+/* navbar his and */
+/*  home page is start*/
+.home-page{
+    height: 90%;
+    width: 100%;
+    /* border: 5px solid black; */
+    /* display: flex; */
+}
+.left{
+    height: 100%;
+    width: 60%;
+    /* border: 5px solid goldenrod; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    /* font-size: 30px; */
+    gap: 35px;
+     padding: 0 150px;
+     color: white;
+}
+.left h1{
+    /* display: flex; */
+
+    font-size: 100px;
+}
+.left h4{
+    font-size: 30px;
+}
+.left h3{
+    font-size: 28px;
+}
+.left button{
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: none;
+    background: rgb(255,179,0);
+    /* background: background: rgb(255,179,0); */
+    background: linear-gradient(90deg, rgba(255,179,0,0.8155637254901961) 0%, rgba(227,203,138,1) 2%, rgba(227,203,140,0.8071603641456583) 11%, rgba(255,179,0,1) 100%, rgba(2,0,36,0.7847514005602241) 100%);
+    color: white;
+}
+    
+/* main-sec is closed */
+/* second ppage is start */
+.section2{
+    height: 100vh;
+    width: 100%;
+    border: 5px solid blue;
+}
+.left-righ1{
+    height: 90%;
+    width: 100%;
+    border: 5px solid saddlebrown;
+    display: flex;
+}
+.left2{
+    height: 100%;
+    width: 40%;
+    /* border: 5px solid gold; */
+    display: flex;
+    padding: 0 180px;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 30px;
+    margin-top: 20px;
+}
+.box1{
+    height: 50%;
+    width: 50%;
+    /* border: 6px solid gold; */
+}
